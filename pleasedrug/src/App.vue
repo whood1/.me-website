@@ -1,25 +1,15 @@
 <template>
-  <div>
-
-    <Portfolio/>
-
-    <img alt="Vue logo" src="./assets/logo.png">
-    <div>
-      <HelloWorld msg="Welcome to Your Vue.js App"/>
-    </div>
-  </div>
-
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Portfolio from './components/Portfolio.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    Portfolio
+    HelloWorld
   }
 }
 </script>
